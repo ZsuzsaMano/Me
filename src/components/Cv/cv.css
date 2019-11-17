@@ -1,0 +1,80 @@
+body {
+  background: #222;
+  padding: 15px 40px;
+  background-size: cover;
+}
+
+main {
+  position: relative;
+  top: 40px;
+}
+
+.download{
+  border: 1px solid white;
+  border-radius: 12px;
+  margin-left: 600px;
+}
+
+.row {
+  justify-content: space-around;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+  color: #444;
+}
+
+h2{
+  font-size: 1.2rem;
+}
+
+h3{
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+/* Grey */
+#self {
+  width: 180px;
+  border-radius: 50%;
+  filter: drop-shadow(1px 1px 1px black);
+  display:block;
+  margin:0 auto;
+}
+
+.me h1 {
+font-family: 'Rock Salt', cursive;
+font-size: 2em;
+color: #222;
+}
+
+.grey {
+  background-color: #888;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 15px;
+  opacity: 0.96;
+}
+
+.contact {
+  width: 30px;
+}
+
+/*contact*/
+#contact {
+  text-decoration: underline;
+}
+
+ul {
+  list-style: square;
+  list-style-position: inside;
+  padding-left: 0;
+
+}
+
+a:hover {
+  color: #222;
+}
+
+a {
+  color: #444;
+}
