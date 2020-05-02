@@ -5,10 +5,7 @@ import { Link } from 'react-router-dom';
 export class Navbar extends React.Component{
   render() {
     return (
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
-        </button>
+      <nav className="navbar navbar-expand navbar-light bg-light fixed-top">
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav">
@@ -19,7 +16,7 @@ export class Navbar extends React.Component{
             </Link>
             <Link to='/Cover'>
             <li className="nav-item nav-link">
-            Cover Letter
+            CoverLetter
             </li>
             </Link>
             <li className="nav-item download">

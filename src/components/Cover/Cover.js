@@ -1,5 +1,5 @@
 import React from 'react';
-import {Letter} from '../Letter/Letter';
+import { Form } from '../Form/Form';
 import './cover.css';
 
 export class Cover extends React.Component{
@@ -7,26 +7,30 @@ export class Cover extends React.Component{
     super(props);
     this.state = { msr: '',
                   name: 'Human Resources Manager',
-                  company: 'company',
+                  company: 'your company',
                   show: false,
-               };
+                };
+
     this.handleChange = this.handleChange.bind(this);
-    this.changeName = this.changeName.bind(this);
+    this.showMe = this.showMe.bind(this);
   }
 
-  changeName(newName) {
-    this.setState({ name: newName });
-    }
+  showMe() {
+    this.setState({ show: true });
+  }
 
   handleChange(evt) {
     this.setState({ [evt.target.name]: evt.target.value });
   }
 
   render() {
-    return <Letter name={this.state.name}
+    return <Form name={this.state.name}
                    msr={this.state.msr}
                    company = {this.state.company}
+                    show = {this.state.show}
                    handleChange={this.handleChange}
+                   showMe = {this.showMe}
+
                    />;
 
   }

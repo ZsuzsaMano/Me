@@ -2,13 +2,13 @@ import React from 'react';
 import { Navbar } from './components/Navbar/Navbar';
 import { Cv } from './components/Cv/Cv';
 import { Cover } from './components/Cover/Cover';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as HashRouter, Switch, Route } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import './App.css';
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
     <div className="App">
 
 <Navbar/>
@@ -18,7 +18,7 @@ function App() {
 <Route path='/Cover' component={Cover}/>
 </Switch>
         </div>
-          </Router>
+          </HashRouter>
   );
 }
 
@@ -26,13 +26,11 @@ const Home = () =>(
   <div className = 'home container'>
   <Link to='/Cv'>
   <div className='row'>
+  <div className='col'>
+    <img  src="./img/rubber-duck.png" alt="rubber duck" />
+    </div>
   <div className='button col'>
-  <div className='line'></div>
-  <div className='line'></div>
-  <div className='line'></div>
-  <div className='line'></div>
-  <div className='line'></div>
-  <div className='line'></div>
+
     <p>My name is Zsuzsa Lukács
     <br/>
      I'm a Web Developer</p>
