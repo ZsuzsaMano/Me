@@ -13,20 +13,19 @@ export class Cv extends React.Component{
         <br/>
 
 
-        <img className="contact" src="./img/phone.png" alt="phone"/>
-        <a href="tel:+4915214011940">+4915214011940</a>
+        <a href="tel:+4915214011940"> <i className="fa fa-phone-square"></i> +4915214011940</a>
         <br/>
-        <img className="contact" src="./img/email.png" alt="email"/>
-      	webdev.zsuzsa@gmail.com
+        <i className="fa fa-at"></i>
+      	 webdev.zsuzsa@gmail.com
         <br/>
         <a href="http://www.linkedin.com/in/zsuzsa-lukacs">
-        <img class="contact" src="img/linkedin.png" alt="linkedin"/> LinkedIn</a>
+        <i className="fa fa-linkedin"></i> LinkedIn</a>
         <br/>
         <a href="https://github.com/zsuzsamano">
-        <img class="contact" src="img/git.png" alt="github"/> GitHub </a>
+        <i className="fa fa-github-square"></i> GitHub </a>
         <br/>
         <a href="https://codepen.io/zsuzsamano/">
-         <img class="contact" src="img/codepen.png" alt="codepen"/> Codepen</a>
+        <i className="fa fa-codepen"></i> Codepen</a>
 
       </div>
       <div className="col grey">
@@ -51,10 +50,10 @@ export class Cv extends React.Component{
         <br/>
 
         <h3>Projects</h3>
-        <ul>
+        <ul className="projects">
           <li><a href="https://zsuzsamano.github.io/eatOut/">eatOut</a></li>
-          <li><a href="https://zsuzsamano.github.io/Tea-Party/">Tea-shop </a></li>
-          <li><a href="http://www.szbd.hu">Hungarian NGO </a> </li>
+          <li><a href="https://zsuzsamano.github.io/Tea-Shop/">Tea-shop </a></li>
+          <li><a href="https://codepen.io/zsuzsamano/"> Codepen </a> </li>
         </ul>
 
 
