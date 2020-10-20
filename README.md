@@ -1,8 +1,4 @@
 # This is my very old Portfolio website
-It has my resume and a customizable Cover Letter generator.
-A small React experiment
-
-
 
   <a href="https://zsuzsamano.github.io/Me">
   zsuzsamano.github.io/Me
@@ -12,8 +8,8 @@ A small React experiment
 <!-- PROJECT LOGO -->
 <br/>
 <p align="center">
-  <a href="http://petertauber.at/">
-    <img src="./gif/hero.png" alt="Logo" >
+  <a href="https://zsuzsamano.github.io/Me/">
+    <img src="./gif/duck.png" alt="Logo" >
   </a>
 </p>
 
@@ -23,14 +19,39 @@ A small React experiment
 
 
 ***
-The website of an awesome visual artist displaying his works.
+It has my resume and a customizable Cover Letter generator.
+A small React experiment
 
 ***
-### Menu
+### Resume
+<div >
+<p align="center">
+  <a href="https://zsuzsamano.github.io/Me">
+    <img src="./gif/resume1.png" alt="resume1" >
+  </a>
+</p>
+<br>
 
 <p align="center">
-  <a href="http://petertauber.at/">
-    <img src="./gif/menu.png" alt="menu" >
+  <a href="https://zsuzsamano.github.io/Me">
+    <img src="./gif/resume2.png" alt="resume2" >
+  </a>
+</p>
+<br>
+
+<p align="center">
+  <a href="https://zsuzsamano.github.io/Me">
+    <img src="./gif/resume3.png" alt="resume3" >
+  </a>
+</p>
+<br>
+</div>
+
+### Cover Letter Generator
+<div >
+<p align="center">
+  <a href="https://zsuzsamano.github.io/Me">
+    <img src="./gif/cover.gif" alt="cover letter" >
   </a>
 </p>
 <br>
